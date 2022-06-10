@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+#ctn-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("Images/boulder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: end;
+    background-position: 30% 30%;
+    margin-bottom: 0px;
+}
+#hero-h1 {
+    color: white;
+    font-size: 75px;
+    text-shadow: 0px 0px 5px white;
+    padding: 0px 10px 0px 0px;
+}
+#hero-p {
+    background: whitesmoke;
+    padding: 5px 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#ctn-activities {
+    margin: 50px 0px 0px 0px;
+    padding: 0px 00px;
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    background: #F5EEED;
+}
+
+.ctn-activity1 {
+    color: #BF3919;
+    font-weight: bold;   
+    margin: 10px 50px; 
+}
+
+.ctn-activity2 {
+    color: #BF3919;
+    font-weight: bold;   
+    margin: 10px 80px; 
+}
+
+.ctn-activity3 {
+    color: #BF3919;
+    font-weight: bold;   
+    margin: 10px 90px; 
+}
+
+.activity-img {
+    width: 300px;
+    border-radius: 25%;
+    height: 200px
+}
+
+.activity-p {
+    padding: 0px 0px;
+}
+
+.ctn-guide {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #F5EEED;
+    border: 6px solid #BF3919;
+}
+
+.guide-img {
+    width: 200px;
+}
+
